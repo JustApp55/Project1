@@ -1,6 +1,8 @@
 # Project1
 Built with HTML, CSS, JavaScript (this game will be played using the DOM, not the console)
 
+  
+- This is a Number Guess game
 
    How The Game Is Played:
 - A player puts in a number between 1 and 99. 
@@ -20,3 +22,5 @@ Built with HTML, CSS, JavaScript (this game will be played using the DOM, not th
 How to Install Number Guesser locally:
     Fork and clone this repository to your terminal.
     Change into the new directory.
+
+   

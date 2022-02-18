@@ -39,13 +39,10 @@ h1 {
     color: azure;
 } 
 
-/* fieldset {
-    width: 600px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
+p{
+    text-align: center;
+   
+}
 
 
 #output {
@@ -53,17 +50,14 @@ h1 {
     color: azure;
 }
 
-label {
-    float: left;
-    width: 250px;
-    clear: left;
-    text-align: right;
-    padding-right: 1em;
-}
 
 input {
-    float: left;
+    display: block;
+   margin: auto;
+   border: 2px solid rgb(186, 179, 171);
 }
+
+
 
 button {
     display: block;

@@ -1,23 +1,3 @@
-<!-- <!DOCTYPE html> -->
-<!-- <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="grid">
-        <div class="enemy"></div>
-        <!- <div class="player"></div>
-    </div>
-
-    <script scr="game.js"></script>
-</body>
-</html> --> 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guesser</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script scr="game.js"></script>
+  
 </head>
 <body>
     <div id="grid">
     <h1>Number Guesser</h1>
-    <form>
+    
 
         <p id="response"></p>
+
         
-        <fieldset>
             <div id="output">
                 "I'm thinking of a number between 1 and 99. Guess my number, and I'll tell you if you're low, high or correct.""
             </div> 
             <br><br>
-            <label for="guess">Take A Guess</label>
            
-            <input type="number" id="txtGuess">
+            <p>Take A Guess</p>
+           
+            <input id="txtGuess" type="number" >
 
             <div>
-            <input type="submit" id="clickAgain" value="Check User Guess" >
+            <button id="clickAgain" >submit</button>
             <!-- <button type="button">Check Your Guess</button>
             <button type="button" id="ClickAgain">Having Fun? Try Again</button> -->
         </div>
-        </fieldset>
+        
 
-    </form>
+    
     </div>
-   
+    <script src="game.js"></script>
 </body>
 </html>
