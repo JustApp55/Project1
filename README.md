@@ -1,6 +1,6 @@
-  The Game
-  
-- This is a Number Guess game
+  #The Game
+
+- ##This is a Number Guess game
 
    How The Game Is Played:
 - A player puts in a number between 1 and 99. 
