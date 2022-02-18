@@ -7,11 +7,11 @@ function checkGuess() {
     //user input guess number value
   let txtGuess = guess.value; 
     if(txtGuess < correct) {
-        response.textContent = `Too Low ${txtGuess}. Try Again`;
+        return  `Too Low ${txtGuess}. Try Again`;
     } else if (txtGuess > correct) {
-        response.textContent = `Too High ${txtGuess}.Try Again`;
+       return `Too High ${txtGuess}.Try Again`;
     } else if (txtGuess == correct) {
-        response.textContent = "Yay! Correct.  You Smartie Pants!";
+        return "Yay! Correct.  You Smartie Pants!";
     } 
     
 }
