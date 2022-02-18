@@ -14,7 +14,11 @@ If the guess number is less than the random number, the player will receive this
 If the guess number is  equal to the random number, the player will receive this response; 
    "Yay! Correct.  You Smartie Pants!"
 
+ Technologies Used for Number Guesser
+    HTML5
+    CSS3
+    Javascript
 
-  How to Install Number Guesser locally;
-Fork and clone this repository to your machine
-Change into the new directory
+How to Install Number Guesser locally;
+    Fork and clone this repository to your machine
+    Change into the new directory
