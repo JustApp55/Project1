@@ -2,16 +2,19 @@
 const correct = Math.floor(Math.random() * 99) + 1;
 console.log('Random Number', correct);
 
+
+
+//document.querySelector("#response").innerHTML = " (response) ";
 function checkGuess() {
-    
+  
+    let txtGuess = parseInt(document.querySelector('#txtGuess').value);
     //user input guess number value
-  let txtGuess = guess.value; 
     if(txtGuess < correct) {
-        return  `Too Low ${txtGuess}. Try Again`;
+        document.querySelector("#response").innerHTML = `Too Low ${txtGuess}. Try Again`;
     } else if (txtGuess > correct) {
-       return `Too High ${txtGuess}.Try Again`;
+        document.querySelector("#response").innerHTML = `Too High ${txtGuess}.Try Again`;
     } else if (txtGuess == correct) {
-        return "Yay! Correct.  You Smartie Pants!";
+        document.querySelector("#response").innerHTML = "Yay! Correct.  You Smartie Pants!";
     } 
     
 }
