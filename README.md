@@ -19,5 +19,5 @@ Built with HTML, CSS, JavaScript (this game will be played using the DOM, not th
     Javascript
 
 How to Install Number Guesser locally:
-    Fork and clone this repository to your machine
-    Change into the new directory
+    Fork and clone this repository to your machine.
+    Change into the new directory.
