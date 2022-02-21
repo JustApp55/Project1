@@ -1,6 +1,6 @@
   
 
-# Number Guess game
+# Arithmós Eikázo̱ - Number Guessor game
 
    ## How The Game Is Played
 - A player puts in a number between 1 and 99. 
@@ -16,14 +16,20 @@
 
   # https://justapp55.github.io/Project1/
 
- ## Technologies Used for Number Guesser:
+ ## Built With:
     HTML5
     CSS3
     Javascript
 
- ## How to Install Number Guesser locally:
+ ## How to Install locally:
     Fork and clone this repository to your terminal.
-    Change into the new directory.
+    Create your Feature Branch
+    Commit your Changes 
+    Push to the Branch
+    Open a Pull Request
+
+ ## License
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, or distribute copies of the Software.
 
  ## Acknowledgment
-   I would like to thank some teammates for helping to debug my code; Juman, Tony, and Marcus.
+   Thank you note to my teammates to debug my code; Juman, Tony, Marcus and Matthew.
