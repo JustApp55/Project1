@@ -1,6 +1,7 @@
   
 
-# Arithmós Eikázo̱ - Number Guessor game
+# Arithmós Eikázo̱ 
+Number Guessor game
 
    ## How The Game Is Played
 - A player puts in a number between 1 and 99. 
