@@ -22,3 +22,5 @@ function checkGuess() {
 document.querySelector("#clickAgain").addEventListener('click', checkGuess)
 
 
+
+
