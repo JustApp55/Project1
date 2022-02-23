@@ -2,8 +2,10 @@
 body {
    
 
-        background-image: url('https://media0.giphy.com/media/Wy3Q0fuNIJmYn62Lcv/giphy-downsized-large.gif');
-        /* background-image: url(https://i.makeagif.com/media/10-24-2021/IJtwgR.gif); */
+        /* background-image: url('https://media0.giphy.com/media/Wy3Q0fuNIJmYn62Lcv/giphy-downsized-large.gif'); */
+
+        background-image: url(https://cdn.dribbble.com/users/127779/screenshots/3419471/media/5eeaf1afddd12b7651da58021278a9a8.gif); 
+        
         background-size: cover;
         
         height: 100vh;
