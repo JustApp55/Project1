@@ -9,9 +9,9 @@ function checkGuess() {
   
     //runs user input guess number value
     if(txtGuess.value < correct) {
-        document.querySelector("#response").innerHTML = `Too Low ${txtGuess.value}. Try Again`;
+        document.querySelector("#response").innerHTML = `${txtGuess.value}, Too low. Try Again`;
     } else if (txtGuess.value > correct) {
-        document.querySelector("#response").innerHTML = `Too High ${txtGuess.value}. Try Again`;
+        document.querySelector("#response").innerHTML = `${txtGuess.value}, Too High. Try Again`;
     } else if (txtGuess.value == correct) {
         document.querySelector("#response").innerHTML = "Yay! Correct. You Smartie Pants!";
     } 
